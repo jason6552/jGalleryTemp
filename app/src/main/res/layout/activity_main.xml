@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:jgallery="http://schemas.android.com/apk/res-auto"
+        tools:context=".MainActivity">
+
+    <com.soubw.jgallery.JGallery
+            android:id="@+id/jGallery"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            jgallery:JGallery_indicator_gravity="right_bottom"
+            jgallery:JGallery_indicator_style="number"
+            jgallery:JGallery_auto_play="false"
+            jgallery:JGallery_auto_loop="true"/>
+
+</android.support.constraint.ConstraintLayout>
